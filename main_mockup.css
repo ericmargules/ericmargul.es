@@ -1,0 +1,108 @@
+* {
+
+	padding: 0;
+	margin: 0;
+
+}
+
+header {
+
+  height: 100%;
+  float: left;
+  display: inline-block;
+  margin-right: 50px;
+  padding: 50px;
+
+}
+
+header ul{
+
+	list-style: none
+
+}
+
+header a {
+
+	text-decoration: none;
+	color: #000;
+
+}
+
+#logo {
+
+	margin: 0 0 30px 0;
+
+}
+
+#logo a{
+
+	font-family: "proxima-nova";
+  line-height: 1.2em;
+  text-transform: none;
+  letter-spacing: .0;
+  font-weight: 700;
+  font-style: normal; 
+  font-size: 27px;
+
+}
+
+#primarynav a{
+
+  color: #a3a3a3;
+  font-family: "proxima-nova";
+  line-height: 1.6em;
+  text-transform: none;
+  letter-spacing: 0em;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  display: inline-block;
+  padding: .2em;
+
+}
+
+#primarynav a:hover{
+
+	color: #1f1f1f;
+
+}
+
+#secondarynav {
+
+	margin: 20px 0 0 0;
+
+}
+
+#secondarynav a{
+
+  color: #1f1f1f;
+  font-family: "proxima-nova";
+  line-height: 1.6em;
+  text-transform: none;
+  letter-spacing: .02em;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  display: inline-block;
+
+
+}
+
+#secondarynav a:hover{
+
+	color: #a3a3a3;
+
+}
+
+#content	{
+
+	width: 100%;
+	max-width: 1200px;
+
+}
+
+#main {
+
+	padding: 50px 40px 0 0;
+
+}
