@@ -28,6 +28,33 @@ header a {
 
 }
 
+p {
+
+  font-family: "Montserrat";
+  line-height: 1.5;
+  text-transform: none;
+  letter-spacing: .02em;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  margin: 0 0 .75em 0;
+  color: #666;
+
+}
+
+h1 {
+
+  color: #121212;
+  font-family: "Montserrat";
+  line-height: 1.2em;
+  text-transform: none;
+  letter-spacing: .02em;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+}
+
 #logo {
 
 	margin: 0 0 30px 0;
@@ -36,26 +63,27 @@ header a {
 
 #logo a{
 
-	font-family: "proxima-nova";
+	font-family: "Montserrat";
   line-height: 1.2em;
   text-transform: none;
-  letter-spacing: .0;
+  letter-spacing: .03em;
   font-weight: 700;
   font-style: normal; 
-  font-size: 27px;
+  font-size: 25px;
+  color: #121212
 
 }
 
 #primarynav a{
 
   color: #a3a3a3;
-  font-family: "proxima-nova";
+  font-family: "Montserrat";
   line-height: 1.6em;
   text-transform: none;
-  letter-spacing: 0em;
+  letter-spacing: 0.03em;
   font-weight: 500;
   font-style: normal;
-  font-size: 16px;
+  font-size: 15px;
   display: inline-block;
   padding: .2em;
 
@@ -76,10 +104,10 @@ header a {
 #secondarynav a{
 
   color: #1f1f1f;
-  font-family: "proxima-nova";
+  font-family: "Montserrat";
   line-height: 1.6em;
   text-transform: none;
-  letter-spacing: .02em;
+  letter-spacing: .03em;
   font-weight: 400;
   font-style: normal;
   font-size: 13px;
@@ -104,5 +132,46 @@ header a {
 #main {
 
 	padding: 50px 40px 0 0;
+
+}
+
+#about_content{
+
+  margin: 1.5em 0 1em 0;
+
+}
+
+#about_content p {
+
+  font-size: 16px;
+  max-width: 90%;
+
+}
+
+#button {
+
+  background-color: #121212;
+  padding: .5em;
+  display: inline-block;
+
+}
+
+#button a {
+  
+  color: #FFF;
+  font-family: "Montserrat";
+  line-height: 1.6em;
+  text-transform: none;
+  letter-spacing: 0em;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+#button:hover {
+  
+  opacity: .8;
 
 }
