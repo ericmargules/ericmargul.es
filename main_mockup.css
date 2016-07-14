@@ -5,6 +5,31 @@
 
 }
 
+body {
+
+  font-family: "Montserrat";
+  line-height: 1.5;
+  text-transform: none;
+  letter-spacing: .02em;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+
+}
+
+body a {
+
+  color: #1f1f1f;
+  text-decoration: none;
+
+}
+
+body a:hover {
+
+  color: #a3a3a3;
+
+}
+
 header {
 
   height: 100vh;
@@ -17,7 +42,7 @@ header {
 nav {
 
   padding: 50px;
-    
+
 }
 
 header ul{
@@ -35,13 +60,6 @@ header a {
 
 p {
 
-  font-family: "Montserrat";
-  line-height: 1.5;
-  text-transform: none;
-  letter-spacing: .02em;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
   margin: 0 0 .75em 0;
   color: #666;
 
@@ -50,12 +68,8 @@ p {
 h1 {
 
   color: #121212;
-  font-family: "Montserrat";
   line-height: 1.2em;
-  text-transform: none;
-  letter-spacing: .02em;
   font-weight: 500;
-  font-style: normal;
   font-size: 24px;
 
 }
@@ -82,12 +96,9 @@ h1 {
 #primarynav a{
 
   color: #a3a3a3;
-  font-family: "Montserrat";
   line-height: 1.6em;
-  text-transform: none;
   letter-spacing: 0.03em;
   font-weight: 500;
-  font-style: normal;
   font-size: 15px;
   display: inline-block;
   padding: .2em;
@@ -109,12 +120,9 @@ h1 {
 #secondarynav a{
 
   color: #1f1f1f;
-  font-family: "Montserrat";
   line-height: 1.6em;
-  text-transform: none;
   letter-spacing: .03em;
   font-weight: 400;
-  font-style: normal;
   font-size: 13px;
   display: inline-block;
 
@@ -130,7 +138,7 @@ h1 {
 #content	{
 
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1100px;
 
 }
 
@@ -153,30 +161,53 @@ h1 {
 
 }
 
-#button {
+#button, #block {
 
   background-color: #121212;
   padding: .5em;
   display: inline-block;
+  color: #FFF;
+  font-size: 16px;
+  letter-spacing: .04em;
 
 }
 
 #button a {
   
   color: #FFF;
-  font-family: "Montserrat";
   line-height: 1.6em;
-  text-transform: none;
   letter-spacing: 0em;
   font-weight: 500;
-  font-style: normal;
   font-size: 18px;
-  text-decoration: none;
 
 }
 
 #button:hover {
   
   opacity: .8;
+
+}
+
+.date {
+
+  color: #919191;
+
+}
+
+#item_header {
+
+  margin: 0 0 1.5em 0;
+
+}
+
+#item_header h1 {
+
+  margin: 0 0 .4em 0;
+
+}
+
+#item_content {
+
+  margin: 0 0 1.5em 0;
 
 }
