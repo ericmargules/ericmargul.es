@@ -32,7 +32,6 @@ body a:hover {
 
 header {
 
-  height: 100vh;
   float: left;
   display: inline-block;
 
@@ -89,7 +88,7 @@ h1 {
 #mobilenav {
 
   display: none;
-  margin: 0 0 10px 0;
+  margin: 0 0 20px 0;
 
 }
 
@@ -147,7 +146,7 @@ h1 {
 #main {
 
   margin: 0 0 0 275px;
-
+  max-width: 650px;
 }
 
 #about_content{
@@ -214,12 +213,27 @@ h1 {
 
 }
 
-
 @media screen and (max-width:799px){
 
   #content {
 
+    padding: 35px 25px;
+
+  }
+
+}
+
+@media screen and (max-width:750px){
+
+  #content {
+
     padding: 15px;
+
+  }
+
+  #main {
+
+    max-width: none;
 
   }
 
