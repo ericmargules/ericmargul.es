@@ -213,6 +213,26 @@ h1 {
 
 }
 
+#item_main {
+
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin: 0 0 20px 0;
+  -webkit-transition-duration: .25s; /* Safari */
+  transition-duration: .25s;
+
+}
+
+#item_main:hover {
+
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition-duration: .25s; /* Safari */
+  transition-duration: .25s;
+  cursor: pointer;
+  
+}
+
 @media screen and (max-width:799px){
 
   #content {
