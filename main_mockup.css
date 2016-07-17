@@ -162,7 +162,7 @@ h1 {
 
 }
 
-#button, #block {
+#button, .block {
 
   background-color: #121212;
   padding: .5em;
@@ -173,10 +173,11 @@ h1 {
 
 }
 
-#block {
+.block {
 
   width: 100%;
   text-align: center;
+  box-sizing: border-box;
 
 }
 
@@ -220,6 +221,12 @@ h1 {
 
 }
 
+.section_header {
+
+  margin: 0 0 20px 0;
+
+}
+
 .portfolio_item {
 
   position: relative;
@@ -228,6 +235,9 @@ h1 {
   filter: grayscale(100%);
   -webkit-transition-duration: .25s;
   transition-duration: .25s;
+  display: inline-block;
+  margin: 0 20px 0 0;
+
 } 
 
 .portfolio_item:hover{
@@ -270,7 +280,7 @@ h1 {
 }
 
   
-#item_tile {
+.item_tile {
 
   margin: 0 0 10px 0;
   width: 100%
