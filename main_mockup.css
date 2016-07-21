@@ -136,10 +136,8 @@ h1 {
 
 #content	{
 
-/*	width: 100vw;*/	
   max-width: 900px;
   padding: 50px;
-/*  display: table-cell;*/
   margin: 0 auto;
 }
 
@@ -371,12 +369,26 @@ h1 {
   }
 
   #main {
-    margin: 0;
+  
+    margin: 2.5em 0 0 0;
+  
   }
 
   .portfolio_item {
 
     width: 100%;
     margin: 0 0 35px 0;
+  }
+
+  #item_content p {
+
+  max-width: 100%;
+
+  }
+
+  #item_header {
+  
+    margin: 0 0 2em 0;
+  
   }
 }
