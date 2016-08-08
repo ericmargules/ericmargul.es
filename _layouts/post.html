@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-
 <header id="item_header">
 	<h1>{{ page.title }}</h1>
-	<text class="date">{{ page.date }} | {{ page.tech }}</text>
+	<text class="date">{{ page.date_data }} | {{ page.tech }}</text>
 </div>
 <div id="item_content">
-	<img id="item_main" src="images/{{ page.image }}">
+	<img id="item_main" src="/images/{{ page.image }}">
 	{{ content }}
 	<p><a href={{ page.github_url }} >Github</a></p>
 </div>

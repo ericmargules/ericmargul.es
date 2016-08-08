@@ -6,62 +6,70 @@ layout: default
 	<div class="section_header">
 		<h1>Code</h1>
 	</div>
-	<div class="portfolio_item">
-		<a href="https://github.com/ericmargules/syema_de_pon">
-			<img class="item_tile" src="images/ivysaur.png">
-			<text class="block">Syema de Pon</text>
-		</a>
-	</div>
-	<div class="portfolio_item">
-		<a href="https://github.com/ericmargules/syema_de_pon">
-			<img class="item_tile" src="images/wartortle.png">
-			<div class="block">Decade Leather</div>
-		</a>
-	</div>
+	
+	{% for post in site.posts %}
+
+		{% if post.category == "code" %}
+		
+			<div class="portfolio_item">
+
+				<a href="{{site.baseurl}}{{post.url}}">
+					<img class="item_tile" src="/images/{{post.image}}">
+					<text class="block">{{ post.title }}</text>
+				</a>
+
+			</div>
+	
+		{% endif %}
+	
+	{% endfor %}
+
 </div>
+
 <div class="portfolio_section">
 	<div class="section_header">
 		<h1>Copy</h1>
 	</div>
-	<div class="portfolio_item">
-		<a href="https://github.com/ericmargules/syema_de_pon">
-			<img class="item_tile" src="images/squirtle.png">
-			<text class="block">Decade Leather</text>
-		</a>
-	</div>
-	<div class="portfolio_item">
-		<a href="https://github.com/ericmargules/syema_de_pon">
-			<img class="item_tile" src="images/ivysaur.png">
-			<div class="block">Lions Clubs</div>
-		</a>
-	</div>
-	<div class="portfolio_item">
-		<a href="https://github.com/ericmargules/syema_de_pon">
-			<img class="item_tile" src="images/ivysaur.png">
-			<text class="block">Syema de Pon</text>
-		</a>
-	</div>
+	
+	{% for post in site.posts %}
+
+		{% if post.category == "copy" %}
+		
+			<div class="portfolio_item">
+
+				<a href="{{site.baseurl}}{{post.url}}">
+					<img class="item_tile" src="/images/{{post.image}}">
+					<text class="block">{{ post.title }}</text>
+				</a>
+
+			</div>
+	
+		{% endif %}
+	
+	{% endfor %}
+
 </div>
+
 <div class="portfolio_section">
 	<div class="section_header">
 		<h1>Design</h1>
 	</div>
-	<div class="portfolio_item">
-		<a href="https://github.com/ericmargules/syema_de_pon">
-			<img class="item_tile" src="images/squirtle.png">
-			<text class="block">Decade Leather</text>
-		</a>
-	</div>
-	<div class="portfolio_item">
-		<a href="https://github.com/ericmargules/syema_de_pon">
-			<img class="item_tile" src="images/ivysaur.png">
-			<div class="block">EricMargul.es</div>
-		</a>
-	</div>
-	<div class="portfolio_item">
-		<a href="https://github.com/ericmargules/syema_de_pon">
-			<img class="item_tile" src="images/ivysaur.png">
-			<text class="block">Syema de Pon</text>
-		</a>
-	</div>
+	
+	{% for post in site.posts %}
+
+		{% if post.category == "design" %}
+		
+			<div class="portfolio_item">
+
+				<a href="{{site.baseurl}}{{post.url}}">
+					<img class="item_tile" src="/images/{{post.image}}">
+					<text class="block">{{ post.title }}</text>
+				</a>
+
+			</div>
+	
+		{% endif %}
+	
+	{% endfor %}
+
 </div>
