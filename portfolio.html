@@ -1,11 +1,16 @@
 ---
 layout: default
+javascript: portfolio
 ---
+<div class="section_header">
+	<ul>
+		<li><h1><a class="section_option" href="#" >Code</a></h1></li>
+		<li><h1><a class="section_option" href="#" >Copy</a></h1></li>
+		<li><h1><a class="section_option" href="#" >Design</a></h1></li>
+	</ul>
+</div>
 
-<div class="portfolio_section">
-	<div class="section_header">
-		<h1>Code</h1>
-	</div>
+<div class="portfolio_section" id="Code">
 	
 	{% for post in site.posts %}
 
@@ -15,7 +20,7 @@ layout: default
 
 				<a href="{{site.baseurl}}{{post.url}}">
 					<img class="item_tile" src="/images/{{post.image}}">
-					<text class="block">{{ post.title }}</text>
+					<text class="block">{{post.title}}</text>
 				</a>
 
 			</div>
@@ -26,10 +31,7 @@ layout: default
 
 </div>
 
-<div class="portfolio_section">
-	<div class="section_header">
-		<h1>Copy</h1>
-	</div>
+<div class="portfolio_section" id="Copy">
 	
 	{% for post in site.posts %}
 
@@ -50,10 +52,7 @@ layout: default
 
 </div>
 
-<div class="portfolio_section">
-	<div class="section_header">
-		<h1>Design</h1>
-	</div>
+<div class="portfolio_section" id="Design">
 	
 	{% for post in site.posts %}
 
