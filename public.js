@@ -23,6 +23,9 @@ $(document).ready(function(){
 		case "?category=design":
 			openSection("Design");		
 			break;
+		case "":
+			openSection("Code");
+			break;
 	}
 
 
