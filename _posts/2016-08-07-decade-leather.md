@@ -2,7 +2,7 @@
 layout: post
 title: "Decade Leather"
 category: "code"
-image: ivysaur.png
+image: wartortle.png
 tech: "Ruby, Ruby on Rails, JavaScript, HTML, CSS"
 date_data: "2016-Q1"
 github_url: "https://github.com/ericmargules/decade" 
