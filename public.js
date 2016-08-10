@@ -36,12 +36,27 @@ $(document).ready(function(){
 	});
 
 	function openSection(sectionName) {
-    var i;
     var x = document.getElementsByClassName("portfolio_section");
-    for (i = 0; i < x.length; i++) {
+    for (var i = 0; i < x.length; i++) {
         x[i].style.display = "none"; 
     }
-    document.getElementById(sectionName).style.display = "block"; 
+    
+    document.getElementById(sectionName).style.display = "block";
+
+    // var y = document.getElementsByClassName("section_option");
+    var y = $('a[class*=section_option]');
+		
+		for (var i = 0; i < y.length; i++) {
+			if(y[i].innerHTML == sectionName){
+
+				y[i].className = "section_option current";
+
+			} else {
+
+				y[i].className = "section_option";
+
+			}
+		}
 	}
 
-}); 
+});

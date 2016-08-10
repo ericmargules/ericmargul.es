@@ -255,9 +255,15 @@ h1 {
 
 .section_header li:active {
 
-  padding: 5px 5px 0 5px;
-  border: 1px solid black;
+  color: #a3a3a3;
+  padding: 6px 6px 0 6px;
   border-bottom: none;
+
+}
+
+.section_header .current {
+
+  color: #a3a3a3;
 
 }
 
