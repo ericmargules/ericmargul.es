@@ -357,7 +357,7 @@ h1 {
 
   #content {
 
-    padding: 20px;
+    padding: 20px 50px;
     display: table-cell;
 
   }
@@ -430,8 +430,17 @@ h1 {
 
   .section_header li {
 
-  margin: 0 6% 10px 6%;
+  margin: 0 5% 10px 5%;
 
   }
 
+}
+
+@media screen and (max-width:510px){
+
+  #content {
+
+    padding: 20px;
+
+  }
 }
