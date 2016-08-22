@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Decade Leather"
+title: "Decade"
 category: "code"
 image: wartortle.png
-tech: "Ruby, Ruby on Rails, JavaScript, HTML, CSS"
+tech: "Ruby, Ruby on Rails, JavaScript, HTML5, CSS"
 date_data: "2016-Q1"
 github_url: "https://github.com/ericmargules/decade" 
 ---
 
-A puzzle game written in Ruby using the [Gosu Development Library](https://www.libgosu.org/). Based on classic puzzle games like its namesake, [Panel de Pon](https://www.youtube.com/watch?v=kpr9H_Zzhz8), players must create horizontal or vertical words to clear letter blocks before they reach the top of the screen.
+The [digital storefront](http://www.decadeleather.com) of my boutique luxury leather goods brand, Decade. The Decade webstore was coded using [Ruby on Rails](http://rubyonrails.org/), [Devise](https://rubygems.org/gems/devise/versions/4.2.0), and the [PayPal REST API](https://developer.paypal.com/docs/api/), and features a custom webapp that allows users to bulid and purchase their own leather goods using Ruby, Javascript, and HTML5. 
