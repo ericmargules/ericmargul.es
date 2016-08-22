@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Decade Leather"
+title: "Decade"
 category: "copy"
 image: ivysaur.png
 tech: "Ruby, Ruby on Rails, JavaScript, HTML, CSS"
