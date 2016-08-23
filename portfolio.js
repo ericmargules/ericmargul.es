@@ -1,18 +1,5 @@
-$(document).ready(function(){
+function handlePortfolio() {
 
-	$(".portfolio_item").mouseenter(function(){
-
-		$(this).children("*").children(".block").css("opacity", "0.8");
-
-	});
-
-	$(".portfolio_item").mouseleave(function(){
-
-		$(this).children("*").children(".block").css("opacity", "1");
-
-	});
-
-	
 	switch(location.search){
 		case "?category=code":
 			openSection("Code");
@@ -43,7 +30,6 @@ $(document).ready(function(){
     
     document.getElementById(sectionName).style.display = "block";
 
-    // var y = document.getElementsByClassName("section_option");
     var y = $('a[class*=section_option]');
 		
 		for (var i = 0; i < y.length; i++) {
@@ -57,6 +43,24 @@ $(document).ready(function(){
 
 			}
 		}
-	}
+	}	
+}
+
+$(document).ready(function(){
+
+	$(".portfolio_item").mouseenter(function(){
+
+		$(this).children("*").children(".block").css("opacity", "0.8");
+
+	});
+
+	$(".portfolio_item").mouseleave(function(){
+
+		$(this).children("*").children(".block").css("opacity", "1");
+
+	});
+
+	
+	handlePortfolio();
 
 });

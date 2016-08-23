@@ -10,9 +10,13 @@
  	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  {% if page.javascript && page.javascript == "portfolio" %}
+  {% if page.javascript %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="public.js"></script>
+    {% if page.javascript == "portfolio" %}
+      <script src="portfolio.js"></script>
+    {% elsif page.javascript == "contact" %}
+      <script src="contact.js"></script>
+    {% endif %}
   {% endif %}
 
 </head>
