@@ -160,7 +160,7 @@ h1 {
 
 }
 
-#button, .block {
+#button, .block, .button {
 
   background-color: #121212;
   padding: .5em;
@@ -168,6 +168,7 @@ h1 {
   color: #FFF;
   font-size: 16px;
   letter-spacing: .04em;
+  border: none;
 
 }
 
@@ -179,17 +180,24 @@ h1 {
 
 }
 
-#button a {
+#button a, .button a {
   
   color: #FFF;
   line-height: 1.6em;
   letter-spacing: 0em;
   font-weight: 500;
   font-size: 18px;
+  font-family: "Montserrat";
 
 }
 
-#button:hover {
+.button a:hover {
+
+  color: #FFF;
+
+}
+
+#button:hover, .button:hover {
   
   opacity: .8;
 
@@ -339,6 +347,18 @@ h1 {
   -webkit-transition-duration: .25s;
   transition-duration: .25s;
   cursor: pointer;
+
+}
+
+#contact_form {
+
+  margin: 1.5em 0 0 0;
+
+}
+
+#contact_fields {
+
+  margin: 0 0 1em 0;
 
 }
 
