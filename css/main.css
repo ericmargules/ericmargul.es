@@ -454,6 +454,23 @@ h1 {
 
   }
 
+  .portfolio_item {
+
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+
+  } 
+
+  .portfolio_item:hover{
+
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+  } 
+
 }
 
 @media screen and (max-width:510px){
