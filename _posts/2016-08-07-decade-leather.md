@@ -8,4 +8,4 @@ date_data: "2016-Q1"
 github_url: "https://github.com/ericmargules/decade" 
 ---
 
-The [digital storefront](http://www.decadeleather.com) of my boutique luxury leather goods brand, Decade. The Decade webstore was coded using [Ruby on Rails](http://rubyonrails.org/), [Devise](https://rubygems.org/gems/devise/versions/4.2.0), and the [PayPal REST API](https://developer.paypal.com/docs/api/), and features a custom webapp that allows users to bulid and purchase their own leather goods using Ruby, Javascript, and HTML5. 
+The [digital storefront](http://www.decadeleather.com) of my boutique luxury leather goods brand, Decade. The Decade webstore was coded using [Ruby on Rails](http://rubyonrails.org/), [Devise](https://rubygems.org/gems/devise/versions/4.2.0), and the [PayPal REST API](https://developer.paypal.com/docs/api/), and features a custom webapp that allows users to build and purchase their own leather goods using Ruby, Javascript, and HTML5. 
