@@ -74,7 +74,7 @@ h1 {
 
 #logo a{
 
-	font-family: "Montserrat";
+  font-family: "Montserrat";
   line-height: 1.2em;
   text-transform: none;
   letter-spacing: .03em;
@@ -378,7 +378,6 @@ h1 {
   #content {
 
     padding: 20px 50px;
-    display: table-cell;
 
   }
 
