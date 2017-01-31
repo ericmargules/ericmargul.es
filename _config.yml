@@ -9,7 +9,7 @@
 title: Eric I. Margules
 email: eric.i.margules@gmail.com
 description: 'Desktop and web developer specializing in Ruby, Rails, JavaScript, and other technologies that take applications from "oh" to "woah!'
-baseurl: "https://ericmargules.github.io/margul.es"
+baseurl: "margul.es"
 url: "http://yourdomain.com"
 twitter_username: jekyllrb
 github_username:  ericmargules
