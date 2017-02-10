@@ -425,7 +425,7 @@ h1 {
   .portfolio_item {
 
     width: 100%;
-    margin: 0 0 35px 0;
+    margin: 0 0 55px 0;
   }
 
   #item_content p {
@@ -476,6 +476,10 @@ h1 {
 
   #about_content p {
     max-width: 100%
+  }
+	
+  #contact_form {
+    text-align: left;
   }
 
 }
