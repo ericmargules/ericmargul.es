@@ -481,7 +481,10 @@ h1 {
   #contact_form {
     text-align: left;
   }
-
+	
+  #item_main {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width:510px){
