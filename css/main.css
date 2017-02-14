@@ -524,6 +524,14 @@ h1 {
     font-size: 2em;
     margin-right: 5%;
   }
+	
+  .portfolio_section {
+    margin: 0;
+  }
+
+  .portfolio_item:last-of-type {
+    margin: 0;
+  }
 }
 
 @media screen and (max-width:510px){
