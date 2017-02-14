@@ -484,7 +484,7 @@ h1 {
 
   #about_content p {
     max-width: 100%;    
-    text-align: center;
+    text-align: left;
   }
 	
   #contact_form {
