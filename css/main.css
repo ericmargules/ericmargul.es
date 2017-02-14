@@ -495,8 +495,13 @@ h1 {
     max-width: 100%;
   }
 	
-  #about_content{
+  #about_content {
     margin: 1.5em 0 1.5em 0;
+  }
+  
+  #portfolio_button_div {
+    width: 100%;
+    text-align: left;
   }
 }
 
