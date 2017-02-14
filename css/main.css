@@ -516,6 +516,13 @@ h1 {
     display: block;
     width: 100%;
     float: left;
+    margin-top: 5em;
+    text-align: center;
+  }
+
+  #mobile_social_nav a {
+    font-size: 2em;
+    margin-right: 5%;
   }
 }
 
