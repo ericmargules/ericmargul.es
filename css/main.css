@@ -160,6 +160,10 @@ h1 {
 
 }
 
+#about_content a {
+	color: #a3a3a3;
+}
+
 #button, .block, .button {
 
   background-color: #121212;
