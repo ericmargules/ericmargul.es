@@ -532,6 +532,15 @@ h1 {
   .portfolio_item:last-of-type {
     margin: 0;
   }
+  
+  #item_content {
+    margin: 0; 
+  }
+  
+  #item_content p{
+    text-align: left; 
+  }
+  
 }
 
 @media screen and (max-width:510px){
