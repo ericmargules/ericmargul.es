@@ -164,6 +164,10 @@ h1 {
 	color: #a3a3a3;
 }
 
+#about_content a:hover {
+	color: #1f1f1f;	
+}
+
 #button, .block, .button {
 
   background-color: #121212;
