@@ -4,6 +4,7 @@ layout: default
 <header id="item_header">
 	<h1>{{ page.title }}</h1>
 	<text class="date">{{ page.date_data }} | {{ page.tech }}</text>
+	<text class="portfolio_breadcrumb"><a href={{site.url}}"portfolio.html?category="{{post.category}}>Back to Portfolio</a></text>
 </header>
 <div id="item_content">
 	<img id="item_main" src="{{ site.url }}/images/{{ page.image }}">
