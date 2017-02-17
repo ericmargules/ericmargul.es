@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Decade Storefront"
+title: "Decade - Storefront"
 category: "code"
 image: wartortle.png
 tech: "Ruby, Ruby on Rails, JavaScript, HTML5, CSS, AWS, Heroku"
