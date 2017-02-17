@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Decade Wallet Builder"
+title: "Decade - Wallet Builder"
 category: "code"
 image: squirtle.png
 tech: "Ruby, Ruby on Rails, JavaScript, HTML5, CSS, AWS"
