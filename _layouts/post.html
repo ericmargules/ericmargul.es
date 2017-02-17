@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-<a id="portfolio_breadcrumb" href="{{site.url}}/portfolio.html?category={{page.category}}">← Back to Portfolio</a>
-<br/>
 <header id="item_header">
 	<h1>{{ page.title }}</h1>
 	<text class="date">{{ page.date_data }} | {{ page.tech }}</text>
@@ -11,4 +9,5 @@ layout: default
 	<img id="item_main" src="{{ site.url }}/images/{{ page.image }}">
 	{{ content }}
 	<p><a href={{ page.github_url }} >Github</a></p>
+	<p><a id="portfolio_breadcrumb" href="{{site.url}}/portfolio.html?category={{page.category}}">← Back to Portfolio</a></p>
 </div>
