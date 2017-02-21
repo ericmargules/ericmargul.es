@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Eric I. Margules
+title: Eric Margules
 email: eric.i.margules@gmail.com
 description: 'Desktop and web developer specializing in Ruby, Rails, JavaScript, and other technologies that take applications from "oh" to "woah!'
 baseurl: ""
