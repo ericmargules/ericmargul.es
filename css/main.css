@@ -338,7 +338,8 @@ h1 {
   -webkit-transition-duration: .25s;
   transition-duration: .25s;
   margin: 0 0 20px 0;
-
+  max-width: 75%;
+	
 }
 
   
