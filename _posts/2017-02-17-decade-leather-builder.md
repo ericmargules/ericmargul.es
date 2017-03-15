@@ -3,6 +3,7 @@ layout: post
 title: "Decade - Wallet Builder"
 category: "code"
 image: wallet-builder.png
+video: wallet-builder.mp4
 tech: "Ruby, Ruby on Rails, JavaScript, HTML5, CSS, AWS"
 date_data: "2017-Q1"
 github_url: "https://github.com/ericmargules/decade" 
