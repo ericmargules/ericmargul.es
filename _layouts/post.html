@@ -7,7 +7,7 @@ layout: default
 </header>
 <div id="item_content">
 	<img id="item_main" src="{{ site.url }}/images/{{ page.image }}">
-	<video class="post_video" width="100%" controls>
+	<video class="post_video" width="100%" poster="{{ site.url }}/images/{{ page.image }}" controls>
 		<source src="{{ site.url }}/images/{{ page.video }}" type="video/mp4">
 		Your browser does not support the video tag.
 	</video> 
