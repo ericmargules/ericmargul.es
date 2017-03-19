@@ -2,7 +2,7 @@
 layout: post
 title: "Lions Clubs"
 category: "copy"
-image: squirtle.png
+image: lions-clubs.png
 video: lions-clubs.mp4
 tech: "Ruby, Ruby on Rails, JavaScript, HTML, CSS"
 date_data: "2016-Q1"

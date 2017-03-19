@@ -2,7 +2,7 @@
 layout: post
 title: "Decade"
 category: "design"
-image: ivysaur.png
+image: decade_logotype.png
 tech: "Ruby on Rails, JavaScript, HTML5, CSS"
 date_data: "2016-Q1"
 github_url: "https://github.com/ericmargules/decade" 
