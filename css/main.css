@@ -331,13 +331,6 @@ h1 {
 
 }
 
-#item_main {
-
-  margin: 0 0 20px 0;
-  max-width: 75%;
-	
-}
-
   
 .item_tile {
 
@@ -384,6 +377,13 @@ h1 {
 
 #portfolio_breadcrumb:hover {
     color: #1f1f1f;
+}
+
+.post_video {
+
+  margin: 0 0 20px 0;
+  max-width: 75%;
+
 }
 
 @media screen and (max-width:799px){
