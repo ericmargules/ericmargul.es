@@ -2,7 +2,7 @@
 layout: post
 title: "Syema de Pon"
 category: "code"
-image: ivysaur.png
+image: syema.png
 tech: "Ruby, Gosu, MS Paint, Photoshop"
 date_data: "2016-Q1"
 github_url: "https://github.com/ericmargules/syema_de_pon" 
