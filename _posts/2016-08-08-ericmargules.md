@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ericmargul.es"
+title: "Margul.es"
 category: "design"
 image: margules.jpg
 tech: "Ruby, Gosu, MS Paint, Photoshop"
