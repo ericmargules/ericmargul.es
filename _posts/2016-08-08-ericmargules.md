@@ -2,7 +2,7 @@
 layout: post
 title: "ericmargul.es"
 category: "design"
-image: squirtle.png
+image: margules.jpg
 tech: "Ruby, Gosu, MS Paint, Photoshop"
 date_data: "2016-Q1"
 github_url: "https://github.com/ericmargules/syema_de_pon" 
