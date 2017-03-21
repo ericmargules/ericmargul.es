@@ -294,10 +294,10 @@ h1 {
 
   position: relative;
   width: 40%;
- /* -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
   -webkit-transition-duration: .25s;
-  transition-duration: .25s;*/
+  transition-duration: .25s; 
   display: inline-block;
   margin: 0 20px 20px 0;
 
@@ -306,11 +306,11 @@ h1 {
 .portfolio_item:hover{
 
   position: relative;
-/*  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
+ -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   -webkit-transition-duration: .25s;
   transition-duration: .25s;
-*/} 
+  } 
 
 
 .item_overlay {
@@ -336,16 +336,6 @@ h1 {
 
   margin: 0 0 10px 0;
   width: 100%
-
-}
-
-#item_main:hover {
-
-/*  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-  -webkit-transition-duration: .25s;
-  transition-duration: .25s;*/
-  cursor: pointer;
 
 }
 
