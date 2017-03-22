@@ -294,10 +294,6 @@ h1 {
 
   position: relative;
   width: 75%;
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-  -webkit-transition-duration: .25s;
-  transition-duration: .25s; 
   display: inline-block;
   margin: 0 0 5% 0;
 
@@ -306,10 +302,7 @@ h1 {
 .portfolio_item:hover{
 
   position: relative;
- -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition-duration: .25s;
-  transition-duration: .25s;
+  opacity: .7;
   } 
 
 
@@ -466,23 +459,6 @@ h1 {
      margin: 0 2.5% 10px 2.5%;
 
   }
-
-  .portfolio_item {
-
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    -webkit-transition-duration: 0s;
-    transition-duration: 0s;
-
-  } 
-
-  .portfolio_item:hover{
-
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    -webkit-transition-duration: 0s;
-    transition-duration: 0s;
-  } 
 	
   .wrapper {
     text-align: center;
