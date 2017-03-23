@@ -3,6 +3,7 @@ layout: post
 title: "Syema de Pon"
 category: "code"
 image: syema.png
+video: syema-de-pon.mp4
 tech: "Ruby, Gosu, MS Paint, Photoshop"
 date_data: "2016-Q1"
 github_url: "https://github.com/ericmargules/syema_de_pon" 
