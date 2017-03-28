@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Lions Clubs"
+title: "Lions Journey"
 category: "copy"
 image: lions-clubs.png
 video: lions-clubs.mp4
-tech: "Ruby, Ruby on Rails, JavaScript, HTML, CSS"
-date_data: "2016-Q1"
-github_url: "https://github.com/ericmargules/decade" 
+tech: "Copy, HTML, Photoshop, Cascade"
+date_data: "2016-Q4"
+link_url: "http://lions100.lionsclubs.org/EN/media/lions-journey.php" 
 ---
 
-A puzzle game written in Ruby using the [Gosu Development Library](https://www.libgosu.org/). Based on classic puzzle games like its namesake, [Panel de Pon](https://www.youtube.com/watch?v=kpr9H_Zzhz8), players must create horizontal or vertical words to clear letter blocks before they reach the top of the screen.
+I help set the tone and create the content that inspires members of the world’s largest service club organization--Lions Clubs International. In support of a three year service initiative culminating in the centennial celebration in 2017, I created a five-part multimedia installment exploring the organization's history. 
+
+Each installment explores a new aspect of the history of Lions Clubs International with rare historical photos, videos, and audio, and is translated into the 11 official LCI languages. 
