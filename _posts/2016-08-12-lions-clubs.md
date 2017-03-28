@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lions Journey"
+title: "The Lions Journey"
 category: "copy"
 image: lions-clubs.png
 video: lions-clubs.mp4
