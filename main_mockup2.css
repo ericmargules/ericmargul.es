@@ -128,3 +128,19 @@ nav > li:not(:first-child) {
 	line-height: 34px;
 	font-size: 1.1em !important;
 }
+
+.fourth_column {
+	width: 24%;
+	display: inline-block;
+}
+
+.three_fourths_column {
+	width: 74%;
+	display: inline-block;
+}
+
+#intro_photo {
+	width: 100%;
+	border-radius: 50%;
+	filter: grayscale(30%);
+}
