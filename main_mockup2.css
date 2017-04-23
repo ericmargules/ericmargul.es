@@ -90,7 +90,7 @@ nav > li:not(:first-child) {
 }
 
 .small_link:hover {
-	color: #80B9E7;
+	color: #0073CF;
 }
 
 #hero {
@@ -98,7 +98,7 @@ nav > li:not(:first-child) {
 	height: 69%;
 	min-height: 350px;
 	max-height: 900px;
-	background-color: #80B9E7;
+	background-color: #0073CF;
 	text-align: center;
 }
 
@@ -205,8 +205,8 @@ nav > li:not(:first-child) {
 	text-align: center;
 }
 
+.portfolio_item:nth-child(even) {background: #D3D3D3}
 .portfolio_item:nth-child(odd) {background: #CCE3F5}
-.portfolio_item:nth-child(even) {background: #CCC}
 
 .portfolio_item {
 	width: 100%;
@@ -252,8 +252,8 @@ nav > li:not(:first-child) {
 }
 
 .p_button:hover {
-	border: 1px solid #80B9E7;
-	background-color: #80B9E7;
+	border: 1px solid #0073CF;
+	background-color: #0073CF;
 	color: #FFF;
 }
 
