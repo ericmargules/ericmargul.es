@@ -86,7 +86,7 @@ nav > li:not(:first-child) {
 }
 
 .top_nav_link:hover {
-	color: #000000;
+	color: #111;
 }
 
 .small_link:hover {
@@ -203,14 +203,24 @@ nav > li:not(:first-child) {
 #index_footer {
 	width: 100%;
 	text-align: center;
+	background: #0073CF;
 }
 
-.portfolio_item:nth-child(even) {background: #D3D3D3}
-.portfolio_item:nth-child(odd) {background: #CCE3F5}
+#index_footer > .one_column > h2 {
+	color: #FFF;
+}
 
+/*.portfolio_item:nth-child(even) {background: #CCE3F5}
+.portfolio_item:nth-child(odd) {background: #80B9E7}
+*/
 .portfolio_item {
 	width: 100%;
 	padding: 4em 0;
+	background: #f1f1f0;
+}
+
+.portfolio_item > p {
+	color: #737373;
 }
 
 .p_item_container {
@@ -225,7 +235,7 @@ nav > li:not(:first-child) {
 
 .portfolio_title {
 	font-size: 2.1em;
-	color: #FFF;
+	color: #0073CF;
 }
 
 .portfolio_desc {
@@ -235,16 +245,17 @@ nav > li:not(:first-child) {
 
 .portfolio_desc > p {
 	margin: 1em 0 1.5em 0;
-	font-size: 1.1em;
+	font-size: 1.25em;
 	max-width: 700px;
 }
 
 .p_button {
+	font-size: 1.1em;	
 	display: inline-block;
 	margin-right: 45px;
 	padding: 15px 37px;
-	color: #FFF;
-	border: 1px solid #FFF;
+	color: #737373;
+	border: 1px solid #737373;
 	text-decoration: none;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
@@ -254,7 +265,7 @@ nav > li:not(:first-child) {
 .p_button:hover {
 	border: 1px solid #0073CF;
 	background-color: #0073CF;
-	color: #FFF;
+	color: #f1f1f0;
 }
 
 @media screen and (min-width:1350px){
