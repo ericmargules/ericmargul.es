@@ -215,7 +215,6 @@ nav > li:not(:first-child) {
 */
 .portfolio_item {
 	width: 100%;
-	padding: 4em 0;
 	background: #f1f1f0;
 }
 
@@ -226,6 +225,7 @@ nav > li:not(:first-child) {
 .p_item_container {
 	width: 85em;
 	margin: 0 auto;
+	padding: 4em 0;
 }
 
 .portfolio_image {
@@ -240,13 +240,13 @@ nav > li:not(:first-child) {
 
 .portfolio_desc {
 	display: inline-block;
-	margin-left: 3em;
+	margin: 0 3em;
+	max-width: 66%;
 }
 
 .portfolio_desc > p {
 	margin: 1em 0 1.5em 0;
 	font-size: 1.25em;
-	max-width: 700px;
 }
 
 .p_button {
