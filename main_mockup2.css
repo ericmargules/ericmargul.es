@@ -171,11 +171,6 @@ nav > li:not(:first-child) {
 	text-decoration: none;
 }
 
-.one_column {
-	width: 100%;
-	display: inline-block;
-}
-
 .fourth_column {
 	width: 24%;
 	display: inline-block;
@@ -198,16 +193,6 @@ nav > li:not(:first-child) {
 	width: 100%;
 	border-radius: 50%;
 	filter: grayscale(30%);
-}
-
-#index_footer {
-	width: 100%;
-	text-align: center;
-	background: #0073CF;
-}
-
-#index_footer > .one_column > h2 {
-	color: #FFF;
 }
 
 /*.portfolio_item:nth-child(even) {background: #CCE3F5}
@@ -266,6 +251,48 @@ nav > li:not(:first-child) {
 	border: 1px solid #0073CF;
 	background-color: #0073CF;
 	color: #f1f1f0;
+}
+
+#index_footer {
+	width: 100%;
+	text-align: center;
+	background: #0073CF;
+	padding: 3.5em 0;
+}
+
+#index_footer > .one_column > h2 {
+	color: #FFF;
+}
+
+#footer_title {
+	color: white;
+	font-size: 2.1em;
+}
+
+.footer_hr {
+    background-color: #fefefe;
+    height: 2px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.2em;
+    margin-bottom: 3em;
+    border: 0;
+}
+
+#contact_section {
+	max-width: 100em;
+	margin: 0 auto;
+}
+
+.third_column {
+	width: 33%;
+	display: inline-block;
+}
+
+.one_column {
+	width: 100%;
+	display: inline-block;
 }
 
 @media screen and (min-width:1350px){
