@@ -98,7 +98,7 @@ nav > li:not(:first-child) {
 	height: 69%;
 	min-height: 350px;
 	max-height: 900px;
-	background-color: #0073CF;
+	background: #0073CF;
 	text-align: center;
 }
 
