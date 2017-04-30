@@ -257,20 +257,17 @@ nav > li:not(:first-child) {
 	width: 100%;
 	text-align: center;
 	background: #0073CF;
-	padding: 3.5em 0;
-}
-
-#index_footer > .one_column > h2 {
-	color: #FFF;
+	padding: 5em 0;
 }
 
 #footer_title {
-	color: white;
+	color: #FEFEFE;
 	font-size: 2.1em;
+	font-weight: 400;
 }
 
 .footer_hr {
-    background-color: #fefefe;
+    background-color: #FEFEFE;
     height: 2px;
     width: 100px;
     margin-left: auto;
@@ -293,6 +290,38 @@ nav > li:not(:first-child) {
 .one_column {
 	width: 100%;
 	display: inline-block;
+}
+
+.contact_title {
+	color: #FEFEFE;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	margin-bottom: .75em;
+}
+
+.contact_body {
+	color: #FEFEFE;
+	font-size: 1.1em;
+	font-weight: 400;
+	letter-spacing: .05em;
+}
+
+.c_button {
+    font-size: 1.35em;
+    display: inline-block;
+    margin-top: 3em;
+    padding: 15px 37px;
+    color: #FEFEFE;
+    border: 1px solid #FEFEFE;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.c_button:hover {
+	background-color: #FEFEFE;
+	color: #0073CF;
 }
 
 @media screen and (min-width:1350px){
