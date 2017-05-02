@@ -271,7 +271,7 @@ nav > li:not(:first-child) {
 	width: 100%;
 	text-align: center;
 	background: #0073CF;
-	padding: 4em 0;
+	padding: 2.5em 0;
 }
 
 #footer_title {
@@ -347,4 +347,63 @@ nav > li:not(:first-child) {
 	#hero_desc {
 	    font-size: 2.9em;
 	}
+}
+
+@media screen and (max-width:750px){
+	#hero_name {
+	    font-size: 5.5vmax;
+	}
+
+	#hero_desc {
+	    font-size: 3.8vmax;
+	}
+
+	.fourth_column {
+	    width: 100%;
+	    display: block;
+	    margin: 0 auto 3em auto;
+	}
+
+	#intro_photo {
+	    width: 40%;
+	}
+
+	.three_fourths_column {
+	    width: 80%;
+	    display: block;
+	    margin: 0 auto;
+	}
+
+	.three_fourths_column > h2 {
+		padding: 0;
+	}
+
+	#intro_content p {
+		padding: 0;
+	}
+
+	.p_item_container {
+	    width: 100%;
+	}
+	
+	.portfolio_image {
+	    display: block;
+	    width: 80%;
+	    margin: 0 auto;
+	}
+	
+	.portfolio_desc {
+	    margin: 0 auto;
+	    width: 80%;
+	    max-width: none;
+	    display: block;
+	}
+
+	#contact_section {
+    	width: 90%;
+    }
+
+    .third_column {
+    	width: 32%;
+    }
 }
