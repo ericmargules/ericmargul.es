@@ -349,6 +349,12 @@ nav > li:not(:first-child) {
 	}
 }
 
+/* Post Styles */
+
+.portfolio_hero {
+	width: 100%
+}
+
 @media screen and (max-width:750px){
 	#hero_name {
 	    font-size: 5.5vmax;
