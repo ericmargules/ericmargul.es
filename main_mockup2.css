@@ -156,7 +156,7 @@ nav > li:not(:first-child) {
 	padding-right: 8%;
 }
 
-.about_link{
+.body_link{
 	color: #333;
 	background-color: #CCE3F5;
 	text-decoration: none;
@@ -164,7 +164,7 @@ nav > li:not(:first-child) {
 	transition: all 0.3s ease;
 }
 
-.about_link:hover{
+.body_link:hover{
 	color: #333;
 	border-bottom: solid 2px #80B9E7;
 	background-color: #FFF;
@@ -261,7 +261,7 @@ nav > li:not(:first-child) {
 
 }
 
-.p_button:hover {
+.p_button:hover, .post_button:hover {
 	border: 1px solid #0073CF;
 	background-color: #0073CF;
 	color: #f1f1f0;
@@ -338,6 +338,47 @@ nav > li:not(:first-child) {
 	color: #0073CF;
 }
 
+/* Post Styles */
+
+.portfolio_hero {
+	width: 100%
+}
+
+#article_text {
+	width: 85%;
+	max-width: 85em;
+	margin: 4em auto;
+}
+
+.article_paragraph {
+    font-size: 1.6em;
+    margin: 1.5em 0;
+}
+
+.post_title {
+	font-size: 2.5em;
+	color: #0073CF;
+	display: block;
+}
+
+.post_button {
+    font-size: 1.2em;
+    display: inline-block;
+    margin-top: .5em;
+    padding: 15px 45px;
+    color: #737373;
+    border: 1px solid #737373;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.post_image {
+	display: block;
+	width: 100%;
+	margin: 5em auto;
+}
+
 @media screen and (min-width:1350px){
 
 	#hero_name {
@@ -347,12 +388,6 @@ nav > li:not(:first-child) {
 	#hero_desc {
 	    font-size: 2.9em;
 	}
-}
-
-/* Post Styles */
-
-.portfolio_hero {
-	width: 100%
 }
 
 @media screen and (max-width:750px){
